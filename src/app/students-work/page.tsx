@@ -7,6 +7,7 @@ const page = () => {
     <section className="h-[100vh] w-full shrink-0 flex flex-col items-center justify-center relative">
       <video
         className="absolute inset-0 w-full h-full object-cover -z-20 filter brightness-50 contrast-125"
+        poster="/posters/poster1.png"
         muted
         autoPlay
         loop
