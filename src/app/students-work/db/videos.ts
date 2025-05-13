@@ -23,4 +23,10 @@ export const videos = [
     src: "/videos/video4.mp4",
     poster: "/posters/poster4.png",
   },
+  {
+    id: "video5",
+    title: "Proiect 5",
+    src: "/videos/video5.mov",
+    poster: "/posters/poster5.png",
+  },
 ];
