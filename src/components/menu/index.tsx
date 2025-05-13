@@ -44,16 +44,55 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Creații Plastice.",
   },
 ];
+const produseEducationale: {
+  title: string;
+  href: string;
+  description: string;
+}[] = [
+  {
+    title: "Creații video",
+    href: "/students-work",
+    description: "Videoclipuri create de elevi.",
+  },
+  {
+    title: "Postere digitale",
+    href: "/about-me",
+    description: "Postere digitale.",
+  },
+  {
+    title: "Creații Plastice",
+    href: "/about-me",
+    description: "Creații Plastice.",
+  },
+];
 
 export function MainMenu() {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="space-x-4">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Meniu</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {components.map((component) => (
+                <ListItem
+                  key={component.title}
+                  title={component.title}
+                  href={component.href}
+                >
+                  {component.description}
+                </ListItem>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+      <NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Produse educaționale</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+              {produseEducationale.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
