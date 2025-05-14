@@ -15,12 +15,12 @@ const page = () => {
             <video
               poster={v.poster}
               controls
-              className="w-full h-40 object-cover"
+              className="w-full h-50 object-cover"
               src={v.src}
             />
-            <div className="p-4">
+            {/* <div className="p-4">
               <h3 className="font-medium">{v.title}</h3>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

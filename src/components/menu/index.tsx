@@ -55,14 +55,14 @@ const produseEducationale: {
     description: "Videoclipuri create de elevi.",
   },
   {
-    title: "Postere digitale",
+    title: "",
     href: "/about-me",
     description: "Postere digitale.",
   },
   {
-    title: "Creații Plastice",
+    title: "Postere digitale/Creații Plastice",
     href: "/about-me",
-    description: "Creații Plastice.",
+    description: "Creații făcute de către elevi.",
   },
 ];
 
@@ -90,6 +90,24 @@ export function MainMenu() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Produse educaționale</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+              {produseEducationale.map((component) => (
+                <ListItem
+                  key={component.title}
+                  title={component.title}
+                  href={component.href}
+                >
+                  {component.description}
+                </ListItem>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+      </NavigationMenuList>
+      <NavigationMenuList>
+        <NavigationMenuItem>
+          <NavigationMenuTrigger>Activități extracurriculare</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {produseEducationale.map((component) => (
