@@ -19,4 +19,19 @@ export const interview_videos = [
     src: "/videos/interviu3.mp4",
     poster: "/posters/iposter3.png",
   },
+  {
+    id: "interviu4",
+    src: "/videos/interviu4.mov",
+    poster: "/posters/iposter4.png",
+  },
+  {
+    id: "interviu5",
+    src: "/videos/interviu5.mov",
+    poster: "/posters/iposter5.png",
+  },
+  {
+    id: "interviu6",
+    src: "/videos/interviu6.mp4",
+    poster: "/posters/iposter6.png",
+  },
 ];
