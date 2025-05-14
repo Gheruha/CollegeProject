@@ -17,7 +17,7 @@ export default function Page() {
       <h1 className="text-4xl lg:text-6xl md:text-5xl sm:text-4xl font-medium text-white p-4 text-center">
         Vizionează creațiile elevilor
       </h1>
-      <Link href={"students-work/videos"}>
+      <Link href={"students-videos/videos"}>
         <button className="relative z-50 mt-8 bg-white/20 hover:bg-white/30 text-white p-4 rounded-full">
           <Play size={48} />
         </button>

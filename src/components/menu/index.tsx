@@ -51,7 +51,7 @@ const produseEducationale: {
 }[] = [
   {
     title: "Creații video",
-    href: "/students-work",
+    href: "/students-videos",
     description: "Videoclipuri create de elevi.",
   },
   {

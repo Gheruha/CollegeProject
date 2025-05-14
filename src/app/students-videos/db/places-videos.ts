@@ -1,4 +1,4 @@
-export const videos = [
+export const places_videos = [
   {
     id: "video1",
     src: "/videos/video1.mov",
@@ -23,14 +23,5 @@ export const videos = [
     id: "video5",
     src: "/videos/video5.mp4",
     poster: "/posters/poster5.png",
-  },
-  {
-    id: "interviu1.1",
-    src: "/videos/interviu1.mov",
-    poster: "/posters/iposter1.png",
-  }, {
-    id: "interviu1.2",
-    src: "/videos/interviu1_2.mov",
-    poster: "/posters/iposter1_2.png",
   },
 ];
