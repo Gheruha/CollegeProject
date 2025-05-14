@@ -14,4 +14,9 @@ export const interview_videos = [
     src: "/videos/interviu2.mp4",
     poster: "/posters/iposter2.png",
   },
+  {
+    id: "interviu3",
+    src: "/videos/interviu3.mp4",
+    poster: "/posters/iposter3.png",
+  },
 ];

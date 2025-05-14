@@ -24,4 +24,14 @@ export const places_videos = [
     src: "/videos/video5.mp4",
     poster: "/posters/poster5.png",
   },
+  {
+    id: "video6",
+    src: "/videos/video6.mp4",
+    poster: "/posters/poster6.png",
+  },
+  {
+    id: "video7",
+    src: "/videos/video7.mp4",
+    poster: "/posters/poster7.png",
+  },
 ];
