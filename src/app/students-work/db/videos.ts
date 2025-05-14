@@ -20,8 +20,13 @@ export const videos = [
     poster: "/posters/poster4.png",
   },
   {
+    id: "video5",
+    src: "/videos/video5.mp4",
+    poster: "/posters/poster5.png",
+  },
+  {
     id: "interviu1",
     src: "/videos/interviu1.mov",
-    poster: "/posters/poster5.png",
+    poster: "/posters/iposter1.png",
   },
 ];
