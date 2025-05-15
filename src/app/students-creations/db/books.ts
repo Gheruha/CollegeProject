@@ -29,4 +29,22 @@ export const books: BookMeta[] = [
       "https://read.bookcreator.com/TfUmJJ5t8VfNrAOH5JSRxeSMwGU2/OVxYNXVEQPimFRNhGdKuMA/IsI19KdwSz6dMjxTUA7TQg",
     thumbnail: "/posters/bposter4.png",
   },
+  {
+    id: "book5",
+    embedUrl:
+      "https://read.bookcreator.com/oowqoffBZMUiil2PrMESq0UGM563/LJRJtKwBRd6ILqV-Ywq5XA/IkBkyjH7QQ2uzWbEo72V6w",
+    thumbnail: "/posters/bposter5.png",
+  },
+  {
+    id: "book6",
+    embedUrl:
+      "https://read.bookcreator.com/BSOa34fsWhSkirXWknZy16ZMm1q2/Hs2gYHozQ5mB1nNAzZzP-A/KkxSOplNQWKj_Y6Onk4zxw",
+    thumbnail: "/posters/bposter6.png",
+  },
+  {
+    id: "book7",
+    embedUrl:
+      "https://read.bookcreator.com/6AcSog6nsYgAIYSb3f3BJ3GcLjy2/BrCR4ah9TOG-KFZ9XkSbyg/vms-4ac6SaOSKRRUWw0LDw",
+    thumbnail: "/posters/bposter7.png",
+  },
 ];
