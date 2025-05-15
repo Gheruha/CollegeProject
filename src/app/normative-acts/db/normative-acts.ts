@@ -28,12 +28,6 @@ export const normative_acts = [
     link: "https://mecc.gov.md/sites/default/files/cnc4_finalcompetente_digitale_profesori_22iulie2015_1.pdf ",
   },
   {
-    id: "act6",
-    title:
-      " Standarde de competenţe digitale ale elevilor din ciclul primar, gimnazial şi liceal",
-    link: "https://mecc.gov.md/sites/default/files/cnc4_final_competente_digitale_elevi_22iulie2015_1.pdf",
-  },
-  {
     id: "act7",
     title:
       "REPERE METODOLOGICE PRIVIND ORGANIZAREA PROCESULUI EDUCAȚIONAL LA DISCIPLINA ȘCOLARĂ LIMBA ȘI LITERATURA ROMÂNĂ (pentru instituţiile de învăţământ cu instruire în limbile minorităţilor naţionale) ÎN ANUL DE STUDII 2022-2023",
@@ -46,7 +40,7 @@ export const normative_acts = [
   },
   {
     id: "act9",
-    title: "Regulamentul de atestare(rusă)",
-    link: "https://docs.google.com/document/d/1IpLBlwCSKYzLKVKJuXSJUV8SZNJN1aMF/edit",
+    title: "Regulamentul de atestare",
+    link: "https://www.legis.md/cautare/getResults?doc_id=145479&lang=ro",
   },
 ];

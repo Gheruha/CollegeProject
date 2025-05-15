@@ -16,13 +16,13 @@ const components: { title: string; href: string; description: string }[] = [
   {
     title: "Despre Mine",
     href: "/about-me",
-    description: "Aici vei găsi bibliografia mea.",
+    description: "",
   },
   {
     title: "Acte normative",
     href: "/normative-acts",
-    description: "Lista actelor normative după care mă ghidez."
-  }
+    description: "",
+  },
 ];
 const produseEducationale: {
   title: string;
@@ -38,6 +38,18 @@ const produseEducationale: {
     title: "Postere digitale/Creații Plastice",
     href: "/students-creations",
     description: "Creații făcute de către elevi.",
+  },
+];
+
+const activitatiExtracuriculare: {
+  title: string;
+  href: string;
+  description: string;
+}[] = [
+  {
+    title: "Activități extracuriculare",
+    href: "/students-videos",
+    description: "Activități extracuriculare realizate cu elevii.",
   },
 ];
 
@@ -82,10 +94,12 @@ export function MainMenu() {
       </NavigationMenuList>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Activități extracurriculare</NavigationMenuTrigger>
+          <NavigationMenuTrigger>
+            Activități extracurriculare
+          </NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-              {produseEducationale.map((component) => (
+              {activitatiExtracuriculare.map((component) => (
                 <ListItem
                   key={component.title}
                   title={component.title}
