@@ -21,8 +21,6 @@ export default function Page() {
               </AccordionContent>
             </AccordionItem>
           ))}
-
-          {/* adaugă câte iteme vrei */}
         </Accordion>
       </div>
     </div>

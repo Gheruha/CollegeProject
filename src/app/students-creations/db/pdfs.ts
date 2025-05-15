@@ -32,6 +32,12 @@ export const pdfs: PdfMeta[] = [
     src: "/pdfs/presentation3.pdf",
     poster: "/posters/pposter3.png",
   },
+  {
+    id: "Prezentare4",
+    title: "Prezenare",
+    src: "/pdfs/presentation4.pdf",
+    poster: "/posters/pposter4.png",
+  },
 ];
 
 export const interview_pdfs: PdfMeta[] = [
@@ -41,4 +47,10 @@ export const interview_pdfs: PdfMeta[] = [
       src: "/pdfs/ipresentation1.pdf",
       poster: "/posters/ipposter1.png",
     },
+    {
+        id: "iPrezentare2",
+        title: "Prezenare",
+        src: "/pdfs/ipresentation2.pdf",
+        poster: "/posters/ipposter2.png",
+      },
   ];
