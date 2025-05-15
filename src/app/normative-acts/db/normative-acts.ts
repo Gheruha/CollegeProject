@@ -1,4 +1,3 @@
-import { link } from "fs";
 export const normative_acts = [
   {
     id: "act1",
