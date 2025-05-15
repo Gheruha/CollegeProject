@@ -35,13 +35,8 @@ const produseEducationale: {
     description: "Videoclipuri create de elevi.",
   },
   {
-    title: "",
-    href: "/about-me",
-    description: "Postere digitale.",
-  },
-  {
     title: "Postere digitale/Creații Plastice",
-    href: "/about-me",
+    href: "/students-creations",
     description: "Creații făcute de către elevi.",
   },
 ];
