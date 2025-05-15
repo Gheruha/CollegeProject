@@ -19,30 +19,10 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Aici vei găsi bibliografia mea.",
   },
   {
-    title: "Locuri Memorabile",
-    href: "/about-me",
-    description: "În căutarea locurilor pitorești.",
-  },
-  {
-    title: "Produse educaționale",
-    href: "/students-work",
-    description: "Aici vei găsi interviuri.",
-  },
-  {
-    title: "Pagina Digitală",
-    href: "/about-me",
-    description: "Pagina Digitală.",
-  },
-  {
-    title: "Postere digitale",
-    href: "/about-me",
-    description: "Postere digitale.",
-  },
-  {
-    title: "Creații Plastice",
-    href: "/about-me",
-    description: "Creații Plastice.",
-  },
+    title: "Acte normative",
+    href: "/normative-acts",
+    description: "Lista actelor normative după care mă ghidez."
+  }
 ];
 const produseEducationale: {
   title: string;
@@ -71,7 +51,7 @@ export function MainMenu() {
     <NavigationMenu className="space-x-4">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Meniu</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Despre mine</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
               {components.map((component) => (
