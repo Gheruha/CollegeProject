@@ -2,8 +2,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-full h-screen flex justify-center items-center bg-white lg:bg-gray-50 pt-20 lg:p-0">
-      <div className="w-full h-full lg:h-3/4 lg:w-3/4 p-4  mt-20 lg:p-10 lg:shadow-sm lg:border lg:rounded-lg lg:bg-white space-x-12 space-y-12 flex flex-col md:flex-row justify-center items-start lg:items-center">
+    <div className="w-full h-screen flex justify-center items-center bg-white lg:bg-gray-50">
+      <div className="w-full h-full lg:h-3/4 lg:w-3/4 p-4 pt-20 lg:pt-0 lg:p-10 lg:shadow-sm lg:border lg:rounded-lg lg:bg-white space-x-12 space-y-12 flex flex-col md:flex-row justify-center items-start lg:items-center">
         <div className="w-full lg:w-2/4">
           <h1 className="text-xl lg:text-4xl font-bold pb-4">Despre mine</h1>
           <p className="text-md lg:text-lg">
