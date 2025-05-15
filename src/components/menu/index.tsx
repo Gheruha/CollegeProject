@@ -48,7 +48,7 @@ const activitatiExtracuriculare: {
 }[] = [
   {
     title: "Activități extracuriculare",
-    href: "/students-videos",
+    href: "/activities",
     description: "Activități extracuriculare realizate cu elevii.",
   },
 ];
